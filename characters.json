@@ -1,0 +1,262 @@
+{
+
+  "all characters": [
+    {
+      "Name":  "Amelia Watson",
+      "Row": "1",
+      "Column": "1"
+    },
+
+    {
+      "Name": "Gawr Gura",
+      "Row": "1",
+      "Column": "2"
+    },
+
+    {
+      "Name": "Ninomae Inanis",
+      "Row": "1",
+      "Column": "3"
+    },
+
+    {
+      "Name": "Takanashi Kiara",
+      "Row": "1",
+      "Column": "4"
+    },
+
+    {
+      "Name": "Mori Calliope",
+      "Row": "1",
+      "Column": "5"
+    },
+
+    {
+      "Name": "Hakos Baelz",
+      "Row": "1",
+      "Column": "6"
+    },
+
+    {
+      "Name": "Ouro Kronii",
+      "Row": "1",
+      "Column": "7"
+    },
+
+    {
+      "Name": "Ceres Fauna",
+      "Row": "1",
+      "Column": "8"
+    },
+
+    {
+      "Name": "Nanashi Mumei",
+      "Row": "1",
+      "Column": "9"
+    },
+
+    {
+      "Name": "Tsukumo Sana",
+      "Row": "1",
+      "Column": "10"
+    },
+
+    {
+      "Name": "Irys",
+      "Row": "2",
+      "Column": "1"
+    },
+
+    {
+      "Name": "Shirakami Fubuki",
+      "Row": "2",
+      "Column": "2"
+    },
+
+    {
+      "Name": "Ookami Mio",
+      "Row": "2",
+      "Column": "3"
+    },
+
+    {
+      "Name": "Nekomata Okayu",
+      "Row": "2",
+      "Column": "4"
+    },
+
+    {
+      "Name": "Inugami Korone",
+      "Row": "2",
+      "Column": "5"
+    },
+
+    {
+      "Name": "Tokino Sora",
+      "Row": "2",
+      "Column": "6"
+    },
+
+    {
+      "Name": "Azki",
+      "Row": "2",
+      "Column": "7"
+    },
+
+    {
+      "Name": "Roboco-san",
+      "Row": "2",
+      "Column": "8"
+    },
+
+    {
+      "Name": "Hoshimachi Suisei",
+      "Row": "2",
+      "Column": "9"
+    },
+
+    {
+      "Name": "Sakura Miko",
+      "Row": "2",
+      "Column": "10"
+    },
+
+    {
+      "Name": "Akai Haato",
+      "Row": "3",
+      "Column": "1"
+    },
+
+    {
+      "Name": "Yozora Mel",
+      "Row": "3",
+      "Column": "2"
+    },
+
+    {
+      "Name": "Natsuiro Matsuri",
+      "Row": "3",
+      "Column": "3"
+    },
+
+    {
+      "Name": "Aki Rosenthal",
+      "Row": "3",
+      "Column": "4"
+    },
+
+    {
+      "Name": "Oozora Subaru",
+      "Row": "3",
+      "Column": "5"
+    },
+
+    {
+      "Name": "Yuzuki Choco",
+      "Row": "3",
+      "Column": "6"
+    },
+
+    {
+      "Name": "Murasaki Shion",
+      "Row": "3",
+      "Column": "7"
+    },
+
+    {
+      "Name": "Nakiri Ayame",
+      "Row": "3",
+      "Column": "8"
+    },
+
+    {
+      "Name": "Minato Aqua",
+      "Row": "3",
+      "Column": "9"
+    },
+
+    {
+      "Name": "Moona Hoshinova",
+      "Row": "4",
+      "Column": "1"
+    },
+
+    {
+      "Name": "Ayunda Risu",
+      "Row": "4",
+      "Column": "2"
+    },
+
+    {
+      "Name": "Airani Iofiteen",
+      "Row": "4",
+      "Column": "3"
+    },
+
+    {
+      "Name": "Kureiji Oillie",
+      "Row": "4",
+      "Column": "4"
+    },
+
+    {
+      "Name": "Pavolia Reine",
+      "Row": "4",
+      "Column": "5"
+    },
+
+    {
+      "Name": "Anya Melfissa",
+      "Row": "4",
+      "Column": "6"
+    },
+
+    {
+      "Name": "Kobo Kanaeru",
+      "Row": "4",
+      "Column": "7"
+    },
+
+    {
+      "Name": "Kaela Kovalskia",
+      "Row": "4",
+      "Column": "8"
+    },
+
+    {
+      "Name": "Vestia Zeta",
+      "Row": "4",
+      "Column": "9"
+    }
+
+  ],
+
+  "all stages": [
+    {
+      "Stage": "1"
+    },
+
+    {
+      "Stage": "2"
+    },
+
+    {
+      "Stage": "3"
+    },
+
+    {
+      "Stage": "4"
+    },
+
+    {
+      "Stage": "Endless"
+    },
+
+    {
+      "Stage": "Time"
+    }
+
+  ]
+
+}
+
