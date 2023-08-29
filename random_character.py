@@ -97,3 +97,4 @@ if __name__ == '__main__':
     Suffer.welcome()
     Suffer.linebreaker()
     Suffer().startup()
+
