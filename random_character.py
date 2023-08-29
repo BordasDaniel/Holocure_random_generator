@@ -6,7 +6,7 @@ import time
 class Suffer:
     def __init__(self):
         self.rerolls = 3
-        self.data = importing()
+        self.data = self.importing()
         self.current_character = None
         self.character_roll()
         self.current_stage = None
@@ -87,10 +87,10 @@ class Suffer:
         else:
             Suffer().startup()
 
-
-def importing():
-    with open("datas.json", "r") as f:
-        return json.load(f)
+    @staticmethod
+    def importing():
+        with open("datas.json", "r") as f:
+            return json.load(f)
 
 
 if __name__ == '__main__':
