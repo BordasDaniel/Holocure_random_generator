@@ -72,21 +72,24 @@ class Suffer:
     def check_rerolls(self):
         if self.rerolls > 0:
             while not (user := input(
-                    f'Are you satisfied with your pull? (Y/N)'
-                    f'\nY: Lock in the parameters.'
-                    f'\nN: Reroll parameters.'
+                    f'Are you satisfied with your pull?'
+                    f'\n1. Reroll parameters.'
+                    f'\n2. Lock in the parameters.' 
                     f'\nRemember you have {self.rerolls} rerolls left.'
-                    f'\nYour answer: ')) in ['y', 'Y', 'n', 'N']:
-                print('Value error\nPlease answer with (Y/N)')
-            if user == 'N' or user == 'n':
-                self.rerolls -= 1
-                self.select_reroll_option()
-            else:
+                    f'\nYour answer: ')) in ['1', '2']:
                 self.linebreaker()
-                print(f'Your final choice:')
-                self.datas_writeout()
+                print('Value error\nPlease answer with (1/2)')
                 self.linebreaker()
-                self.anticheat()
+            match user:
+                case '1':
+                    self.rerolls -= 1
+                    self.select_reroll_option()
+                case '2':
+                    self.linebreaker()
+                    print(f'Your final choice:')
+                    self.datas_writeout()
+                    self.linebreaker()
+                    self.anticheat()
         else:
             print(f"Sorry but you're out of rerolls.\nSo you have to take that.")
             self.linebreaker()
