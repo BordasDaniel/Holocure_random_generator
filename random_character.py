@@ -11,6 +11,8 @@ class Suffer:
         self.character_roll()
         self.current_stage = None
         self.stage_roll()
+        self.current_mode = None
+        self.stage_roll()
 
     def startup(self):
         while not (user := input(
@@ -30,10 +32,15 @@ class Suffer:
         random_stage_index = random.randint(0, len(self.data["all stages"]) - 1)
         self.current_stage = self.data["all stages"][random_stage_index]
 
+    def mode_roll(self):
+        random_mode_index = random.randint(1, len(self.data["all difficulties"]) - 1)
+        self.current_mode = self.data["all difficulties"][random_mode_index]
+
     def calling(self):
         self.linebreaker()
         self.character_roll()
         self.stage_roll()
+        self.mode_roll()
         self.datas_writeout()
         self.linebreaker()
         self.check_rerolls()
@@ -44,6 +51,7 @@ class Suffer:
               f"\nThe character's placement is in the {self.current_character['Row']}th row"
               f"\nThe character's placement is in the {self.current_character['Column']}th column"
               f"\nThe current stage: {self.current_stage['Stage']}"
+              f"\nThe current mode: {self.current_mode['Mode']}"
               )
 
     def check_rerolls(self):
@@ -97,4 +105,3 @@ if __name__ == '__main__':
     Suffer.welcome()
     Suffer.linebreaker()
     Suffer().startup()
-

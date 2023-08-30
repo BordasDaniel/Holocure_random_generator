@@ -258,13 +258,13 @@
 
   ],
 
-  "difficulity": [
+  "all difficulties": [
     {
-      "Normal": "Normal"
+      "Mode": "Normal"
     },
 
     {
-      "Hardcore": "Hardcore"
+      "Mode": "Hardcore"
     }
 
   ]
