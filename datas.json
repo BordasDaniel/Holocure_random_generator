@@ -264,7 +264,87 @@
     },
 
     {
+      "Mode": "Hard"
+    },
+
+    {
       "Mode": "Hardcore"
+    }
+
+  ],
+
+  "all foods": [
+    {
+      "Food": "None"
+    },
+
+    {
+      "Food": "Tempura"
+    },
+
+    {
+      "Food": "Tuna Sandwich"
+    },
+
+    {
+      "Food": "Sushi Set"
+    },
+
+    {
+      "Food": "Poke Bowl"
+    },
+
+    {
+      "Food": "Lobster Dinner"
+    },
+
+    {
+      "Food": "Pufferfish Meal Set"
+
+    },
+
+    {
+      "Food": "Vegetarian Burger and Fries"
+    },
+
+    {
+      "Food": "Unagi Don"
+    },
+
+    {
+      "Food": "Manta Ray Soup"
+    },
+
+    {
+      "Food": "Burger Meal"
+    }
+
+  ],
+
+  "all others": [
+
+    {
+      "Other": "Collab Ban"
+    },
+
+    {
+      "Other": "Item Limit"
+    },
+
+    {
+      "Other": "Weapon Limit"
+    },
+
+    {
+      "Other": "G Rank Off"
+    },
+
+    {
+      "Other": "Supers Ban"
+    },
+
+    {
+      "Other": "Marketing"
     }
 
   ]
